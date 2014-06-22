@@ -29,8 +29,8 @@ To get this:
 Reference
 =========
 
-`autocomplete.getQuerySuggestions(query, callback)` fetches all `query` type results (other types of results include `NAVIGATION`, `IMAGE`, and more).  Expects a standard callback function to provide (err, result) arguments to.
+1. `autocomplete.getQuerySuggestions(query, callback)` fetches all `QUERY` `type` results (other types of results include `NAVIGATION`, `IMAGE`, and more).  Expects a standard callback function to provide (err, result) arguments to.
 
-`autocomplete.getAllSuggestions(query, callback)` fetches all types of suggestion types (result set will include things like places and images, see above).  Expects a standard callback function to provide (err, result) arguments to.
+2. `autocomplete.getAllSuggestions(query, callback)` fetches all types of suggestion types (result set will include things like places and images, see above).  Expects a standard callback function to provide (err, result) arguments to.
 
-Both methods return an array of objects which include a relevance score based on Google Search's judgment.  See the above sample for example.
+Both methods return an array of objects which include a `relevance` score based on Google Search's judgment.  See the above sample for example.
