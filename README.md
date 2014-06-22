@@ -6,17 +6,20 @@ Lightweight module that lets you easily fetch google's autocomplete suggestions 
 Getting Started
 ===============
 
+Do this:
+
 	auto = require('autocomplete');
 	auto.getQuerySuggestions('house', function(err, suggestions) {
 		console.log(suggestions);
 	})
 
+To get this:
+
 	[
 		{ suggestion: 'house of cards', relevance: 750, type: 'QUERY' },
   	{ suggestion: 'house of prime rib', relevance: 600, type: 'QUERY' },
   	{ suggestion: 'house of cards season 3', relevance: 566, type: 'QUERY' },
-  	{ suggestion: 'house of cards season 2', relevance: 565, type: 'QUERY' },
-    ...
+  	{ suggestion: 'house of cards season 2', relevance: 565, type: 'QUERY' }
   ]
 
 
