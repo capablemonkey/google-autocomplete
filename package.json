@@ -1,0 +1,24 @@
+{
+    "name": "google-autocomplete",
+    "version": "0.0.1",
+    "description": "Fetch Google's autocomplete / query recommendation",
+    "preferGlobal": "false",
+    "main": "autocomplete.js",
+    "bin": {
+        "google-autocomplete": "autocomplete.js"
+    },
+    "author": {
+        "name": "Gordon Zheng",
+        "email": "technix1@gmail.com",
+        "url": "http://sintacks.com"
+    },
+    "keywords": ["google", "google search", "search", "suggestion", "query"],
+    "repository" : {
+        "type": "git",
+        "url": "https://github.com/capablemonkey/google-autocomplete.git"
+    },
+    "dependencies": {
+        "request": "~2"
+    },
+    "engines": { "node": "*" }
+}
