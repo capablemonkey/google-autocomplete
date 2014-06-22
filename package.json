@@ -4,9 +4,6 @@
     "description": "Fetch Google's autocomplete / query recommendation",
     "preferGlobal": "false",
     "main": "autocomplete.js",
-    "bin": {
-        "google-autocomplete": "autocomplete.js"
-    },
     "author": {
         "name": "Gordon Zheng",
         "email": "technix1@gmail.com",
