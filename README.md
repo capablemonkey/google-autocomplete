@@ -6,10 +6,14 @@ Lightweight module that lets you easily fetch google's autocomplete suggestions 
 Getting Started
 ===============
 
-Do this:
+Install the package:
+
+`npm install google-autocomplete`
+
+And do this:
 
 ```js
-auto = require('autocomplete');
+auto = require('google-autocomplete');
 auto.getQuerySuggestions('house', function(err, suggestions) {
 	console.log(suggestions);
 })
