@@ -13,7 +13,7 @@ Install the package:
 And do this:
 
 ```js
-auto = require('google-autocomplete');
+const auto = require('google-autocomplete');
 auto.getQuerySuggestions('house', function(err, suggestions) {
 	console.log(suggestions);
 })
